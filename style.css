@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+.coffee-header{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 19%;
+	width: 100%;
+	background-color: #090807;
+	z-index: 100;
+}
+
+.div-logo{
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	float: left;
+	color: white;
+}
+
+.logo-txt{
+	display: white;
+	font-weight: bold;
+}
+
+.coffee-nav{
+	float: right;
+	height: 100%;
+	margin-top: 30px;
+}
+
+.coffee-nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-width:700;
+	margin-left: 10px;
+	padding: 5px 20px;
+	border:1px solid white;
+	display: inline-block;
+	transition: 0.4s ease;
+}
+
+.coffee-nav a:hover{
+	background-color: white;
+	color: black;
+}
+
+.image-comtent{
+	background-image: url(background-image.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 150vh;
+}
+
+.dl-coffee{
+	color: red;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+}
+*{
+	box-sizing: border-box;
+
+}
+.wrapper{
+	text-align: center;
+}
+
+button{
+	flex: 1;
+	padding: 20px 50px;
+	margin: 25px;
+	border-radius: 999px;
+	border: 5px solid #331900;
+	text-shadow: 0 4px 5px rgba(0,0,0,0.25)
+	white-space:nowrap;
+	color: #FFB266;
+	cursor: pointer;
+	user-select: none;
+	background:transparent;
+	background-image: url(images1-min.jpg);
+	background-repeat: repeat;
+	background-position: 1 -150%;
+	transition: 1.2s ease;
+	font-weight: bold;
+	font-size: 36px;
+}
+button:hover{
+	background-position: 500% 100%;
+}
+
+.card-list{
+	text-align: center;
+}
+.card{
+	width: 20%;
+	padding: 1.0%;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+.card img{
+	width: 60%
+}
+
+.order-section{
+	position: relative;
+	
+}
+
+h1{
+	text-align: center;
+}
+
+.footer{
+	height: 50%;
+	background-color: black;
+	color: white;
+}
+
+
