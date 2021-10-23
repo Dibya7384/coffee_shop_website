@@ -1,2 +1,2 @@
 # coffee_shop_website
-I developed this ecommerce website using html and css.
+I developed this ecommerce website using HTML and CSS.
